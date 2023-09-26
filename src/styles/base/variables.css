@@ -5,4 +5,9 @@
   --space-small: 8px;
   --space-medium: 16px;
   --space-big: 32px;
+
+  /* Media queries */
+  /* mobile is default */
+  /* when min-width is bigger than 550px we are in table mode */
+  /* when min-width is bigger than 750px we are in desktop mode */
 }
