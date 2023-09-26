@@ -3,6 +3,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   padding: var(--space-small);
 }
