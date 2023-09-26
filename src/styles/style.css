@@ -1,3 +1,6 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Comfortaa&display=swap");
+
 /* Base */
 @import url("./base/variables.css");
 @import url("./base/typography.css");
