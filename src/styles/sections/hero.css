@@ -1,3 +1,10 @@
 .hero {
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background-image: url("../../assets/hero-background.jpg");
+  background-color: black;
+  color: white;
 }
