@@ -10,6 +10,7 @@
 @import url("./components/footer.css");
 @import url("./components/navigation-bar.css");
 @import url("./components/item-project.css");
+@import url("./components/modal.css");
 
 /* Sections */
 @import url("./sections/about.css");
