@@ -2,9 +2,11 @@
 import Data from "../data/projects.json";
 import ItemProject from "../components/ItemProject";
 
-export default function Projects() {
+export default function Projects({ setModal }) {
   // Components
-  const Items = Data.map((item) => <ItemProject key={item.id} item={item} />);
+  const Items = Data.map((item) => (
+    <ItemProject key={item.id} item={item} setModal={setModal} />
+  ));
 
   return (
     <section className="projects">
