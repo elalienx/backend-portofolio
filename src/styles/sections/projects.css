@@ -1,11 +1,14 @@
-.projects .content-grid {
+.projects {
+  background-color: aliceblue;
+}
+
+.projects .grid-content {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: var(--space-medium);
-  /* 2 columns at 50%. I want 33% and 66% */
 }
 
-.projects .items-grid {
+.projects .grid-items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--space-small);
@@ -13,14 +16,14 @@
 
 /* Tablet */
 @media (min-width: 550px) {
-  .projects .items-grid {
+  .projects .grid-items {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 /* Desktop */
 @media (min-width: 750px) {
-  .projects .items-grid {
+  .projects .grid-items {
     grid-template-columns: repeat(4, 1fr);
   }
 }
