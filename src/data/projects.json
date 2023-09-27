@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "title": "Vega Restaurant",
+    "title": "Vegan Restaurant",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
     "image_screenshot_url": "https://portfolio-9f77e.web.app/static/media/eika-shopping-list-thumbnail.b1af78eef2865ff75e48.jpg",
     "image_thumb_url": "https://portfolio-9f77e.web.app/static/media/vegan-restaurant-thumbnail.bc745c36dcb74477ccb9.jpg",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "title": "Vega Restaurant",
+    "title": "Package tracker",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
     "image_screenshot_url": "https://portfolio-9f77e.web.app/static/media/eika-shopping-list-thumbnail.b1af78eef2865ff75e48.jpg",
     "image_thumb_url": "https://portfolio-9f77e.web.app/static/media/package-tracker-thumbnail.df96b867552a470635a2.jpg",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "title": "Vega Restaurant",
+    "title": "Todo list",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
     "image_screenshot_url": "https://portfolio-9f77e.web.app/static/media/eika-shopping-list-thumbnail.b1af78eef2865ff75e48.jpg",
     "image_thumb_url": "https://portfolio-9f77e.web.app/static/media/todo-list-thumbnail.89b29a29d4454153f9ef.jpg",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "title": "Vega Restaurant",
+    "title": "BBQ Restaurant",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
     "image_screenshot_url": "https://portfolio-9f77e.web.app/static/media/eika-shopping-list-thumbnail.b1af78eef2865ff75e48.jpg",
     "image_thumb_url": "https://portfolio-9f77e.web.app/static/media/eika-shopping-list-screenshot.f6e9928df5f33507ddac.jpg",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "title": "Vega Restaurant",
+    "title": "LMS System",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
     "image_screenshot_url": "https://portfolio-9f77e.web.app/static/media/eika-shopping-list-thumbnail.b1af78eef2865ff75e48.jpg",
     "image_thumb_url": "https://portfolio-9f77e.web.app/static/media/learning-platform-thumbnail.b35d868f20463f3cde80.jpg",
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "title": "Vega Restaurant",
+    "title": "Netflix",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
     "image_screenshot_url": "https://portfolio-9f77e.web.app/static/media/eika-shopping-list-thumbnail.b1af78eef2865ff75e48.jpg",
     "image_thumb_url": "https://t-mobile.scene7.com/is/image/Tmusprod/netflix-hero_desktop:HERO-desktop?fmt=png&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
