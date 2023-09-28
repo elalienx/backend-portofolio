@@ -16,6 +16,6 @@ img {
   .container {
     max-width: 960px;
     margin: 0 auto;
-    padding: 64px var(--space-medium);
+    padding: 64px var(--space-big);
   }
 }
