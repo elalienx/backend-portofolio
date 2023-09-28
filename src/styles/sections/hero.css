@@ -7,7 +7,7 @@
   background-image: url("../../../public/images/hero-background-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: black;
+  background-color: var(--color-secondary);
   color: white;
   text-align: center;
 }

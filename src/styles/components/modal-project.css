@@ -1,9 +1,17 @@
 .modal-project {
   background-color: white;
+  width: 80%;
 }
 
 .modal-project .content {
   padding: var(--space-medium);
+}
+
+/* Tablet */
+@media (min-width: 550px) {
+  .modal-project {
+    width: 66%;
+  }
 }
 
 /* Desktop */
