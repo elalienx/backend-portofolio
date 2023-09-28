@@ -1,0 +1,16 @@
+button,
+.button {
+  display: inline-block;
+  min-width: 150px;
+  margin-bottom: var(--space-small);
+  padding: var(--space-small);
+  background-color: white;
+  border: solid 4px var(--color-secondary);
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+button .primary,
+.button.primary {
+  background-color: var(--color-secondary);
+  color: var(--color-text-light);
+}
