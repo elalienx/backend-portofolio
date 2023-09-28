@@ -1,3 +1,7 @@
 export default function NavigationBar() {
-  return <nav className="navigation-bar">(this is the navigation bar)</nav>;
+  return (
+    <nav className="navigation-bar">
+      <div className="container">(this will be the navigation bar)</div>
+    </nav>
+  );
 }

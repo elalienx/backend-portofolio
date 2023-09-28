@@ -2,10 +2,14 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="container">
-        <h1>Welcome to Eduardo's portfolio</h1>
-        <span className="subtitle">
-          You just found a detail oriented backend developer
-        </span>
+        <h1>
+          Hi I’m
+          <br /> Eduardo
+        </h1>
+        <p className="subtitle">
+          A Java back-end developer with
+          <br /> obsessive coding practices!
+        </p>
       </div>
       {/* Some tips: */}
       {/* This is one 1 but i want to stylize by showing it in 2 lines use <br/> */}
