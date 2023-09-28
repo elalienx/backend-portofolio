@@ -18,5 +18,5 @@
 
 .item-project img:hover {
   border: solid var(--border-width) var(--color-text-dark);
-  filter: saturate(200%);
+  filter: saturate(150%);
 }

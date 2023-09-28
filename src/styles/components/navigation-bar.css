@@ -1,3 +1,7 @@
 .navigation-bar {
   background-color: var(--color-primary);
 }
+
+.navigation-bar .container {
+  padding: var(--space-medium); /* Overrides default container padding */
+}
