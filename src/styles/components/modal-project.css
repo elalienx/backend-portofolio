@@ -1,6 +1,6 @@
 .modal-project {
   background-color: white;
-  width: 80%;
+  width: 300px;
 }
 
 .modal-project .content {
@@ -10,7 +10,7 @@
 /* Tablet */
 @media (min-width: 550px) {
   .modal-project {
-    width: 66%;
+    width: 500px;
   }
 }
 
