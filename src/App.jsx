@@ -1,6 +1,7 @@
-// Project files
+// Node modules
 import { useState } from "react";
-import Footer from "./components/Footer";
+
+// Project files
 import Modal from "./components/Modal";
 import NavigationBar from "./components/NavigationBar";
 import About from "./sections/About";
@@ -22,7 +23,7 @@ export default function App() {
       <Projects setModal={setModal} />
       <Technologies />
       <Contact />
-      <Footer />
+
       {/* Modal invisible unless someone sents a React component using setModal() */}
       <Modal state={[modal, setModal]} />
     </div>
