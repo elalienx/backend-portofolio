@@ -1,6 +1,3 @@
-// Project files
-import Image from "../assets/about.png";
-
 export default function About() {
   return (
     <section className="about">
@@ -22,7 +19,7 @@ export default function About() {
             </p>
           </div>
           <img
-            src={Image}
+            src="images/about.png"
             alt="A blue all in one computer with some decoration elements"
           />
         </div>
