@@ -1,6 +1,54 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: auto; /* To make text look great on Apple devices */
+}
+
 h1,
 h2,
 h3 {
-  font-family: "Archivo Black", sans-serif;
-  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: var(--space-medium);
+}
+
+h2 {
+  font-size: 38px;
+  margin-bottom: var(--space-small);
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: var(--space-small);
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+/* Desktop */
+h1 {
+  font-size: 72px;
+  margin-bottom: var(--space-big);
+}
+
+h2 {
+  font-size: 44px;
+  margin-bottom: var(--space-medium);
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: var(--space-medium);
+}
+
+p {
+  font-size: 21px;
+  line-height: 1.5;
+  margin-bottom: 16px;
 }
