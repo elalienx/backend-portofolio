@@ -5,6 +5,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  vertical-align: bottom; /* To remove a weird spacing when putting text below images */
 }
 
 .container {
@@ -15,6 +16,6 @@ img {
   .container {
     max-width: 960px;
     margin: 0 auto;
-    padding: 64px 0;
+    padding: 64px var(--space-medium);
   }
 }

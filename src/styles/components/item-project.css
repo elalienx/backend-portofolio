@@ -1,14 +1,22 @@
 .item-project {
   border: none;
   background: none;
-}
-
-.item-project:hover {
-  text-decoration: underline;
+  text-align: left;
 }
 
 .item-project img {
-  aspect-ratio: 16 / 9;
+  --border-width: 4px;
+}
+
+.item-project img {
+  box-sizing: border-box; /* to make sure adding border don't mess the image */
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  border-radius: var(--border-radius);
+  margin-bottom: var(--space-small);
+  border: solid var(--border-width) transparent;
+}
+
+.item-project img:hover {
+  border: solid var(--border-width) var(--color-text-dark);
+  filter: saturate(200%);
 }
