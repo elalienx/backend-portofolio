@@ -6,7 +6,7 @@ export default function NavigationBar() {
     <nav className="navigation-bar">
       <div className="container">
         <div className="logo">
-          <FontAwesomeIcon className="icon" icon="fa-rocket" />
+          <FontAwesomeIcon className="icon" icon={["fas", "rocket"]} />
           <span className="name">Eduardo Alvarez</span>
         </div>
         <div className="links">

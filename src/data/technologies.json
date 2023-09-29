@@ -2,49 +2,57 @@
   {
     "id": 1,
     "title": "java",
-    "icon": "fa-java",
+    "icon_name": "java",
+    "icon_style": "fab",
     "description": "hello world"
   },
   {
     "id": 2,
-    "title": "java",
-    "icon": "fa-java",
+    "title": "Amazon Web Services",
+    "icon_name": "aws",
+    "icon_style": "fab",
     "description": "hello world"
   },
   {
     "id": 3,
     "title": "java",
-    "icon": "fa-java",
+    "icon_name": "java",
+    "icon_style": "fab",
     "description": "hello world"
   },
   {
     "id": 4,
     "title": "java",
-    "icon": "fa-java",
+    "icon_name": "java",
+    "icon_style": "fab",
     "description": "hello world"
   },
   {
     "id": 5,
     "title": "java",
-    "icon": "fa-java",
+    "icon_name": "java",
+    "icon_style": "fab",
     "description": "hello world"
   },
   {
     "id": 6,
     "title": "java",
-    "icon": "fa-java",
+    "icon_name": "java",
+    "icon_style": "fab",
     "description": "hello world"
   },
   {
     "id": 7,
     "title": "java",
-    "icon": "fa-java",
+    "icon_name": "java",
+    "icon_style": "fab",
     "description": "hello world"
   },
   {
     "id": 8,
     "title": "java",
-    "icon": "fa-java",
+    "icon_name": "java",
+    "icon_style": "fab",
     "description": "hello world"
   }
 ]

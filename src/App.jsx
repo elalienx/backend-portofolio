@@ -10,6 +10,7 @@ import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
 import Technologies from "./sections/Technologies";
 import "./styles/style.css";
+import "./scripts/fontawesome";
 
 export default function App() {
   // Local state
