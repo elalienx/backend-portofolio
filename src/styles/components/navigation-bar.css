@@ -6,35 +6,73 @@
 
 .navigation-bar .container {
   display: flex;
+  flex-direction: column;
   padding: var(--space-medium); /* Overrides default container padding */
 }
 
-.navigation-bar .logo {
+/* Main menu elements */
+.navigation-bar .main-menu {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: var(--space-medium);
 }
 
 .navigation-bar .icon {
   height: 24px;
 }
 
-.navigation-bar .name {
+.navigation-bar .desktop-name {
   display: none;
 }
 
-.navigation-bar .links {
+.navigation-bar .button {
+  min-width: initial;
+  height: initial;
+  margin: 0;
+  padding: 0;
+  border: initial;
+  background: initial;
+}
+
+/* Desplegable menu */
+.navigation-bar .desplegable-menu {
   display: flex;
+  flex-direction: column;
   gap: var(--space-medium);
+}
+
+.navigation-bar .show {
+  display: flex;
+}
+
+.navigation-bar .hide {
+  display: none;
 }
 
 /* Desktop */
 @media (min-width: 750px) {
   .navigation-bar .container {
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
-  .navigation-bar .name {
+  /* Main menu elements */
+  .navigation-bar .logo {
+    margin-right: var(--space-small);
+  }
+
+  .navigation-bar .desktop-name {
     display: initial;
+  }
+
+  .navigation-bar .button {
+    display: none;
+  }
+
+  /* Desplegable menu */
+  .navigation-bar .desplegable-menu {
+    display: flex;
+    flex-direction: row;
   }
 }
