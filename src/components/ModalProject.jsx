@@ -15,11 +15,11 @@ export default function ModalProject({ item }) {
         <h3>{title}</h3>
         <p>{description}</p>
         {/* technologies list pending */}
-        <a className="button" href={link_website}>
-          Open website
-        </a>
         <a className="button primary" href={link_github}>
           View repository
+        </a>
+        <a className="button" href={link_website}>
+          Open website
         </a>
       </div>
     </div>
