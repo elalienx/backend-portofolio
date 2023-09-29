@@ -12,12 +12,12 @@ export default function Projects({ setModal }) {
     <section className="projects">
       <div className="container">
         <h2>Projects</h2>
-        <div className="grid-content">
+        <div className="content">
           <p>
             Here are the projects I will be making during the frontend course at
             Novare potential.
           </p>
-          <div className="grid-items">{Items}</div>
+          <div className="items">{Items}</div>
         </div>
       </div>
     </section>
