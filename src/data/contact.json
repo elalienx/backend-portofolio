@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Linked In",
+    "icon_name": "linkedin",
+    "icon_style": "fab",
+    "url": "https://www.linkedin.com/in/eduardo-alvarez-nowak/"
+  },
+  {
+    "id": 2,
+    "title": "GitHub",
+    "icon_name": "github-alt",
+    "icon_style": "fab",
+    "url": "https://github.com/elalienx"
+  }
+]
