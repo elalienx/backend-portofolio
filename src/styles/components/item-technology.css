@@ -1,0 +1,8 @@
+.item-technology .icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: var(--space-small);
+  padding: var(--space-small);
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}

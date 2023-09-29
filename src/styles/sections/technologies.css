@@ -1,0 +1,21 @@
+#technologies .items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-small);
+}
+
+/* Tablet */
+@media (min-width: 550px) {
+  #technologies .items {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 750px) {
+  #technologies .content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: var(--space-medium);
+  }
+}
