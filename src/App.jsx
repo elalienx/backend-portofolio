@@ -24,7 +24,7 @@ export default function App() {
       <Technologies />
       <Contact />
 
-      {/* Modal invisible unless someone sents a React component using setModal() */}
+      {/* Modal is invisible unless someone sents a React component using setModal() */}
       <Modal state={[modal, setModal]} />
     </div>
   );

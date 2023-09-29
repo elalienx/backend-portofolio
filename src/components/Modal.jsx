@@ -1,4 +1,5 @@
-import ReactDom from "react-dom";
+// Node modules
+import { createPortal } from "react-dom";
 
 export default function Modal({ state }) {
   const [modal, setModal] = state;
@@ -9,7 +10,7 @@ export default function Modal({ state }) {
   // Properties
   const HTMLElement = document.getElementById("portal");
 
-  return ReactDom.createPortal(
+  return createPortal(
     <div id="modal">
       <div className="background" onClick={() => setModal(null)}>
         {/* This is the black background that is clickable to close the modal */}
