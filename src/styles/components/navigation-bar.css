@@ -1,7 +1,30 @@
 .navigation-bar {
+  position: sticky;
+  top: 0;
   background-color: var(--color-primary);
 }
 
 .navigation-bar .container {
+  display: flex;
   padding: var(--space-medium); /* Overrides default container padding */
+}
+
+.navigation-bar .name {
+  display: none;
+}
+
+.navigation-bar .links {
+  display: flex;
+  gap: var(--space-medium);
+}
+
+/* Desktop */
+@media (min-width: 750px) {
+  .navigation-bar .container {
+    justify-content: space-between;
+  }
+
+  .navigation-bar .name {
+    display: initial;
+  }
 }
