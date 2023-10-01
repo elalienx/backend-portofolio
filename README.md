@@ -2,19 +2,11 @@
 
 ## About
 
-## Tech stack
-
-## How to run
-
-## Design files
-
-## Resources
-
-# Backend portfolio
-
-## About
-
 This is a very simple React single page so students of the backend course can showcase their projects.
+
+## Demo
+
+You can see a sample of the website here: [https://b2-backend-portfolio.web.app](https://b2-backend-portfolio.web.app)
 
 ## Tech stack
 
