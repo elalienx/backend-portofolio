@@ -7,7 +7,7 @@
 @import url("./base/layout.css");
 
 /* Components */
-@import url("./components/footer.css");
+@import url("./components/button.css");
 @import url("./components/navigation-bar.css");
 @import url("./components/item-project.css");
 @import url("./components/item-technology.css");
