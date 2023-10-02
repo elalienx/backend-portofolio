@@ -3,12 +3,13 @@
   background: none;
 }
 
-.item-project:hover {
-  text-decoration: underline;
+.item-project img {
+  border: solid 4px transparent;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
 }
 
-.item-project img {
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  border-radius: var(--border-radius);
+.item-project:hover img {
+  border: solid var(--color-text-dark) 4px;
+  filter: saturate(150%);
 }

@@ -1,5 +1,9 @@
 :root {
   /* Colors */
+  --color-primary: #f0cc49; /* Ripe Lemon */
+  --color-secondary: #3d72a5; /* Jelly Bean */
+  --color-text-dark: #30290f;
+  --color-text-light: #ffffff;
 
   /* Spacing */
   --space-small: 8px;
