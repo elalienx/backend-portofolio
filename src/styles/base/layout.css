@@ -8,12 +8,13 @@ img {
 }
 
 .container {
-  padding: var(--space-small);
+  padding: var(--space-big) var(--space-medium);
 }
 
 @media (min-width: 750px) {
   .container {
     max-width: 960px;
     margin: 0 auto;
+    padding: 64px var(--space-big);
   }
 }

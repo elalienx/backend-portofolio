@@ -4,6 +4,7 @@
 }
 
 .item-project img {
+  box-sizing: border-box;
   border: solid 4px transparent;
   aspect-ratio: 4 / 3;
   object-fit: cover;
