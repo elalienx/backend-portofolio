@@ -1,3 +1,23 @@
 .modal-project {
+  width: 300px;
   background-color: white;
+}
+
+.modal-project .content {
+  padding: var(--space-medium);
+}
+
+/* Desktop */
+@media (min-width: 750px) {
+  .modal-project {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 640px;
+    height: 480px;
+  }
+
+  .modal-project img {
+    height: 100%;
+    object-fit: cover;
+  }
 }
