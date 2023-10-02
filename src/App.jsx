@@ -4,6 +4,7 @@ import Modal from "./components/Modal";
 import About from "./sections/About";
 import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
+import Technologies from "./sections/Technologies";
 import "./styles/style.css";
 
 export default function App() {
@@ -15,6 +16,8 @@ export default function App() {
       <Hero />
       <About />
       <Projects setModal={setModal} />
+      <Technologies />
+
       {/* Modal invisible unless someone sents a React component using setModal() */}
       <Modal state={[modal, setModal]} />
     </div>
