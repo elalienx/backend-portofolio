@@ -1,4 +1,11 @@
+// Project files
+import Item from "../components/ItemTechnology";
+import Data from "../data/technologies.json";
+
 export default function Technologies() {
+  // Components
+  const Items = Data.map((item) => <Item key={item.id} item={item} />);
+
   return (
     <section className="technologies">
       <div className="container">
@@ -8,7 +15,7 @@ export default function Technologies() {
             Here are the technologies that I already know, and also the ones I'm
             learning.
           </p>
-          <div className="grid">{/* The items will go here */}(item 1)</div>
+          <div className="grid">{Items}</div>
         </div>
       </div>
     </section>
