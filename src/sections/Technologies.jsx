@@ -15,7 +15,7 @@ export default function Technologies() {
             Here are the technologies that I already know, and also the ones I'm
             learning.
           </p>
-          <div className="grid">{Items}</div>
+          <div className="items">{Items}</div>
         </div>
       </div>
     </section>

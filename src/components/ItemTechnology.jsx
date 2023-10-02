@@ -6,7 +6,7 @@ export default function ItemTechnology({ item }) {
 
   return (
     <article className="item-technology">
-      <FontAwesomeIcon icon={[icon_style, icon_name]} />
+      <FontAwesomeIcon className="icon" icon={[icon_style, icon_name]} />
       <h3>{title}</h3>
     </article>
   );
