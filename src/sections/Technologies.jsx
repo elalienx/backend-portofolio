@@ -2,9 +2,11 @@
 import Item from "../components/ItemTechnology";
 import Data from "../data/technologies.json";
 
-export default function Technologies() {
+export default function Technologies({ setModal }) {
   // Components
-  const Items = Data.map((item) => <Item key={item.id} item={item} />);
+  const Items = Data.map((item) => (
+    <Item key={item.id} item={item} setModal={setModal} />
+  ));
 
   return (
     <section className="technologies">
