@@ -11,6 +11,7 @@
 @import url("./components/navigation-bar.css");
 @import url("./components/item-project.css");
 @import url("./components/modal.css");
+@import url("./components/modal-project.css");
 
 /* Sections */
 @import url("./sections/about.css");
