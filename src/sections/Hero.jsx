@@ -1,19 +1,29 @@
 export default function Hero() {
   return (
-    <section className="hero">
+    <section id="hero">
       <div className="container">
-        <h1>Welcome to Eduardo's portfolio</h1>
-        <span className="subtitle">
-          You just found a detail oriented backend developer
-        </span>
+        <h1>
+          Hi I’m
+          <br />
+          Eduardo
+        </h1>
+        <p className="subtitle">
+          A Java back-end developer with
+          <br />
+          obsessive coding practices!
+        </p>
       </div>
-      {/* Some tips: */}
-      {/* This is one 1 but i want to stylize by showing it in 2 lines use <br/> */}
-      {/* h1: Hi, I'm Eduardo frontend developer from Egypt. */}
-
-      {/* If is actually 2 sentences use a span tag with classname subtitle */}
-      {/* h1: Eduardo Alvarez. */}
-      {/* span.subtitle The best frontend developer in town. */}
     </section>
   );
 }
+
+/**
+ * Some tips about stylizing headings
+ *
+ * The heading 1 text is just one sentence,
+ * but I want to stylize it and show it in 2 lines
+ * by using the <br/> tag.
+ *
+ * If is actually 2 separate sentences, use
+ * <span className="subtitle"> to write the 2nd line
+ */

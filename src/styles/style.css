@@ -7,13 +7,15 @@
 @import url("./base/layout.css");
 
 /* Components */
+@import url("./components/anchor.css");
 @import url("./components/button.css");
+@import url("./components/footer.css");
 @import url("./components/navigation-bar.css");
+@import url("./components/item-contact.css");
 @import url("./components/item-project.css");
 @import url("./components/item-technology.css");
 @import url("./components/modal.css");
 @import url("./components/modal-project.css");
-@import url("./components/modal-technology.css");
 
 /* Sections */
 @import url("./sections/about.css");

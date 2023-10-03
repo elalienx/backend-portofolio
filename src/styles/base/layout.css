@@ -5,7 +5,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
-  vertical-align: middle; /* to avoid a weird glitch that happens when there is text below an image */
+  vertical-align: bottom; /* To remove a weird space glitch when putting text below images */
 }
 
 .container {

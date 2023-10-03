@@ -1,4 +1,79 @@
 .navigation-bar {
-  background-color: black;
-  color: white;
+  position: sticky;
+  top: 0;
+  background-color: var(--color-primary);
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-bar .container {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-medium); /* Overrides default container padding */
+}
+
+/* Main menu elements */
+.navigation-bar .main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-bar .icon {
+  height: 24px;
+}
+
+.navigation-bar .desktop-name {
+  display: none;
+}
+
+.navigation-bar .button {
+  min-width: initial;
+  height: initial;
+  margin: 0;
+  padding: 0;
+  border: initial;
+  background: initial;
+}
+
+/* Desplegable menu */
+.navigation-bar .desplegable-menu {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-medium);
+}
+
+.navigation-bar .show {
+  display: flex;
+}
+
+.navigation-bar .hide {
+  display: none;
+}
+
+/* Desktop */
+@media (min-width: 750px) {
+  .navigation-bar .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Main menu elements */
+  .navigation-bar .logo {
+    margin-right: var(--space-small);
+  }
+
+  .navigation-bar .desktop-name {
+    display: initial;
+  }
+
+  .navigation-bar .button {
+    display: none;
+  }
+
+  /* Desplegable menu */
+  .navigation-bar .desplegable-menu {
+    display: flex;
+    flex-direction: row;
+  }
 }

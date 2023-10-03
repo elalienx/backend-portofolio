@@ -1,27 +1,22 @@
 export default function About() {
   return (
-    <section className="about">
+    <section id="about">
       <div className="container">
         <h2>About</h2>
         <div className="content">
-          <div>
+          <div className="paragraphs">
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
-              odio ut aut incidunt est! Laboriosam totam vero eligendi nulla,
-              facere sit veritatis ratione quo ex sunt, reiciendis cupiditate
-              perspiciatis libero!
+              Hi! My name is Eduardo and I’m a back-end developer from Ecuador.I
+              moved to Sweden recently to study my masters in Media Management.
+              This website showcases my projects and skills I have developed so
+              far!
             </p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
-              odio ut aut incidunt est! Laboriosam totam vero eligendi nulla,
-              facere sit veritatis ratione quo ex sunt, reiciendis cupiditate
-              perspiciatis libero!
+              Please take a look at my page and have a good time. I hope to hear
+              from you soon.
             </p>
           </div>
-          <img
-            src="/images/about.png"
-            alt="A blue all in one computer with some decoration elements"
-          />
+          <img src="images/about.png" alt="A blue computer with decoration" />
         </div>
       </div>
     </section>

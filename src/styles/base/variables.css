@@ -14,7 +14,7 @@
   --border-radius: 4px;
 
   /* Media queries */
-  /* mobile is default */
-  /* when min-width is bigger than 550px we are in table mode */
-  /* when min-width is bigger than 750px we are in desktop mode */
+  /* - mobile is the default */
+  /* - when min-width is bigger than 550px we are in table mode */
+  /* - when min-width is bigger than 750px we are in desktop mode */
 }

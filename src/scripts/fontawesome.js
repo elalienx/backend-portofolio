@@ -8,10 +8,8 @@ import {
   faLinkedin,
   faGithubAlt,
 } from "@fortawesome/free-brands-svg-icons";
+library.add(faJava, faAws, faGithubAlt, faLinkedin);
 
 // FontAwesome Regular
 import { faRocket, faBars } from "@fortawesome/free-solid-svg-icons";
-
-// Add to library
-library.add(faJava, faAws, faGithubAlt, faLinkedin);
 library.add(faRocket, faBars);

@@ -1,9 +1,9 @@
 // Node modules
 import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Project files
 import Modal from "./components/Modal";
+import NavigationBar from "./components/NavigationBar";
 import About from "./sections/About";
 import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
@@ -20,8 +20,10 @@ export default function App() {
       <Hero />
       <About />
       <Projects setModal={setModal} />
-      <Technologies setModal={setModal} />
-      {/* Modal invisible unless someone sents a React component using setModal() */}
+      <Technologies />
+      <Contact />
+
+      {/* Modal is invisible unless someone sents a React component using setModal() */}
       <Modal state={[modal, setModal]} />
     </div>
   );

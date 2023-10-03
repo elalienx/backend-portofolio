@@ -1,13 +1,14 @@
 body {
   font-family: "Montserrat", sans-serif;
+  color: var(--color-text-dark);
   -webkit-font-smoothing: auto; /* To make text look great on Apple devices */
 }
 
 h1,
 h2,
 h3 {
+  margin-top: 0;
   font-family: "Bebas Neue", sans-serif;
-  margin: 0;
   line-height: 1;
 }
 

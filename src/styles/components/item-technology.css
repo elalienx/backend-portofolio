@@ -1,20 +1,8 @@
 .item-technology .icon {
-  --size: 32px;
-
-  width: var(--size);
-  height: var(--size);
+  width: 32px;
+  height: 32px;
   margin-bottom: var(--space-small);
   padding: var(--space-small);
   background-color: var(--color-secondary);
   color: var(--color-primary);
-}
-
-/* Desktop */
-@media (min-width: 750px) {
-  .item-technology .icon {
-    --size: 44px;
-
-    width: var(--size);
-    height: var(--size);
-  }
 }

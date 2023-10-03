@@ -1,0 +1,15 @@
+.item-contact {
+  display: flex;
+  align-items: center;
+  gap: var(--space-small);
+  color: var(--color-text-light);
+}
+
+.item-contact .icon {
+  width: 16px;
+  height: 16px;
+  padding: var(--space-small);
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border-radius: 100%;
+}
