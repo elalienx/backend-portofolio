@@ -9,7 +9,7 @@ export default function Projects({ setModal }) {
   ));
 
   return (
-    <section className="projects">
+    <section id="projects">
       <div className="container">
         <h2>Projects</h2>
         <div className="content">

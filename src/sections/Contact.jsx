@@ -7,7 +7,7 @@ export default function Contact() {
   const Items = Data.map((item) => <Item key={item.id} item={item} />);
 
   return (
-    <section className="contact">
+    <section id="contact">
       <div className="container">
         <div className="content">
           <h2>Contact</h2>
