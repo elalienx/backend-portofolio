@@ -24,7 +24,6 @@ export default function App() {
       <Projects setModal={setModal} />
       <Technologies setModal={setModal} />
       <Contact />
-
       {/* Modal is not visible unless someone sents a React component using setModal() */}
       <Modal state={[modal, setModal]} />
     </div>
