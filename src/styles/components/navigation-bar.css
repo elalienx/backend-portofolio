@@ -1,6 +1,5 @@
 .navigation-bar {
-  background-color: beige;
-  padding: 5px;
+  background-color: var(--color-primary);
 }
 
 /* Main menu 🔴 */
@@ -9,8 +8,6 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--space-small);
-
-  background-color: var(--color-primary);
 }
 
 .navigation-bar .main-menu .logo {
@@ -41,4 +38,38 @@
 
 .navigation-bar .links a {
   color: var(--color-primary);
+}
+
+/* Desktop */
+@media (min-width: 750px) {
+  .navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* Main menu 🔴 */
+  .navigation-bar .main-menu .logo {
+    margin-right: var(--space-medium);
+  }
+
+  .navigation-bar .main-menu .name {
+    display: initial; /* initial means go back to the default value */
+    color: var(--color-secondary);
+  }
+
+  .navigation-bar .main-menu .menu-button {
+    display: none;
+  }
+
+  /* Links 🟢 */
+  .navigation-bar .links {
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .navigation-bar .links a {
+    color: var(--color-secondary);
+  }
 }
