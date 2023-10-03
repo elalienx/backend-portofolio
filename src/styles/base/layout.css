@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box; /* A global fix to about size issues when using padding or border */
+}
+
 body {
   margin: 0;
 }

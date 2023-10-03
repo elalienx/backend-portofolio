@@ -4,5 +4,11 @@
   margin-bottom: var(--space-small);
   padding: var(--space-small);
   background-color: var(--color-secondary);
+  border: solid 4px transparent;
   color: var(--color-primary);
+}
+
+/* Mouse over effect */
+.item-technology:hover .icon {
+  border: solid 4px var(--color-primary);
 }
