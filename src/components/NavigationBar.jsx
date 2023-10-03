@@ -12,24 +12,26 @@ export default function NavigationBar() {
 
   return (
     <nav className="navigation-bar">
-      {/* Main menu 🔴 */}
-      <div className="main-menu">
-        <FontAwesomeIcon className="logo icon" icon={["fas", "fa-rocket"]} />
-        <button
-          onClick={() => setShowLinks(!showLinks)}
-          className="menu-button"
-        >
-          <FontAwesomeIcon className="icon" icon={["fas", "fa-bars"]} />
-        </button>
-        <span className="name">Eduardo Alvarez</span>
-      </div>
+      <div className="container">
+        {/* Main menu 🔴 */}
+        <div className="main-menu">
+          <FontAwesomeIcon className="logo icon" icon={["fas", "fa-rocket"]} />
+          <button
+            onClick={() => setShowLinks(!showLinks)}
+            className="menu-button"
+          >
+            <FontAwesomeIcon className="icon" icon={["fas", "fa-bars"]} />
+          </button>
+          <span className="name">Eduardo Alvarez</span>
+        </div>
 
-      {/* Links 🟢 */}
-      <div className={`links ${cssToggle}`}>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#technologies">Technologies</a>
-        <a href="#contact">Contact</a>
+        {/* Links 🟢 */}
+        <div className={`links ${cssToggle}`}>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#technologies">Technologies</a>
+          <a href="#contact">Contact</a>
+        </div>
       </div>
     </nav>
   );

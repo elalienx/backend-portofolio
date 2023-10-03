@@ -5,7 +5,7 @@ export default function Hero() {
         <h1>
           Hi I’m
           <br />
-          Eduardo
+          Eduardo Alvarez
         </h1>
         <p className="subtitle">
           A Java back-end developer with
