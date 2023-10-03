@@ -7,7 +7,7 @@ export default function Technologies() {
   const Items = Data.map((item) => <Item key={item.id} item={item} />);
 
   return (
-    <section id="technologies">
+    <section className="technologies">
       <div className="container">
         <h2>Technologies</h2>
         <div className="content">
