@@ -14,6 +14,7 @@
   --border-radius: 4px;
 
   /* Media queries */
+  /* Note: Normal CSS cannot do variables for media queries. You need to a framework called SASS for that. */
   /* - mobile is the default */
   /* - when min-width is bigger than 550px we are in table mode */
   /* - when min-width is bigger than 750px we are in desktop mode */

@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box; /* A global fix to about size issues when using padding or border */
+  box-sizing: border-box; /* A global fix to size issues when adding padding or border to an element */
 }
 
 body {
@@ -7,19 +7,19 @@ body {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* this tell images never be wider than the screen size, making your images always fit on smartphones */
+  height: auto; /* used in combination with max-width to keep the height proportional */
   vertical-align: bottom; /* To remove a weird space glitch when putting text below images */
 }
 
 .container {
-  padding: var(--space-big) var(--space-medium);
+  padding: var(--space-big) var(--space-medium); /* to avoid the content (text, images, etc) inside each section touching the border of the screen as that look ugly! */
 }
 
 @media (min-width: 750px) {
   .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 64px var(--space-big);
+    max-width: 960px; /* to limit how wide the content of each section can become. Otherwise it the text would be hard to read on large monitors if they text spans across the whole monitor */
+    margin: 0 auto; /* used in combination with max-width to center the content */
+    padding: 64px var(--space-big); /* add even bigger space than the padding added on mobile */
   }
 }

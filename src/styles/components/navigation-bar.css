@@ -13,6 +13,7 @@
 @import url("./navigation-bar/main-menu.css");
 
 .navigation-bar {
+  z-index: 1; /* to avoid the mouse over on item-project or item-technology appearing on top, when the navbar overlapp those sections*/
   position: fixed;
   width: 100%;
   background-color: var(--color-primary);
