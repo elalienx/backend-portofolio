@@ -1,0 +1,36 @@
+.navigation-bar .main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-small);
+}
+
+.navigation-bar .main-menu .logo {
+  height: 32px;
+}
+
+.navigation-bar .main-menu .name {
+  display: none;
+}
+
+.navigation-bar .main-menu .menu-button {
+  min-width: 44px;
+  margin-bottom: 0;
+  background: none;
+  border: none;
+}
+
+/* Desktop */
+@media (min-width: 750px) {
+  .navigation-bar .main-menu .logo {
+    margin-right: var(--space-medium);
+  }
+
+  .navigation-bar .main-menu .name {
+    display: initial; /* initial means go back to the default value */
+  }
+
+  .navigation-bar .main-menu .menu-button {
+    display: none;
+  }
+}

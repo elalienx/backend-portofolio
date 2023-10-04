@@ -1,63 +1,26 @@
 /**
-  Bug report.
-  I will research about Safari that casuses some movement when i open the menu.
+  About:
+  I have refactored the navigation-bar.css by splitting it into 3 files:
+  - navigation-bar.css: This file, and the only file that style.css needs to import.
+  - navigation-bar/links.css: This file handles only the link part and the show/hide interaction.
+  - navigation-bar/main-menu.css: Handles the part with the logo and menu button.
+
+  By splitting the files, each one is less than 50 lines of code, making them very easy to read and improve.
+  This will make the bug fixing of Safari a less stressfull experience.
 */
+
+@import url("./navigation-bar/links.css");
+@import url("./navigation-bar/main-menu.css");
+
 .navigation-bar {
-  position: sticky;
-  top: 0;
+  position: fixed;
+  width: 100%;
   background-color: var(--color-primary);
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .navigation-bar .container {
   padding: 0;
-}
-
-/* User interaction */
-.navigation-bar .links.show {
-  display: flex;
-}
-
-.navigation-bar .links.hide {
-  display: none;
-}
-
-/* Main menu 🔴 */
-.navigation-bar .main-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: var(--space-small);
-}
-
-.navigation-bar .main-menu .logo {
-  height: 32px;
-  color: var(--color-secondary);
-}
-
-.navigation-bar .main-menu .name {
-  display: none;
-}
-
-.navigation-bar .main-menu .menu-button {
-  min-width: 44px;
-  margin-bottom: 0;
-  background: none;
-  border: none;
-}
-
-/* Links 🟢 */
-.navigation-bar .links {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-small);
-  padding: var(--space-small);
-
-  background-color: var(--color-text-dark);
-}
-
-.navigation-bar .links a {
-  color: var(--color-primary);
 }
 
 /* Desktop */
@@ -67,31 +30,5 @@
     flex-direction: row;
     justify-content: space-between;
     padding: var(--space-medium);
-  }
-
-  /* Main menu 🔴 */
-  .navigation-bar .main-menu .logo {
-    margin-right: var(--space-medium);
-  }
-
-  .navigation-bar .main-menu .name {
-    display: initial; /* initial means go back to the default value */
-    color: var(--color-secondary);
-  }
-
-  .navigation-bar .main-menu .menu-button {
-    display: none;
-  }
-
-  /* Links 🟢 */
-  .navigation-bar .links {
-    display: flex !important; /* overrides the .show */
-    flex-direction: row;
-    align-items: center;
-    background-color: transparent;
-  }
-
-  .navigation-bar .links a {
-    color: var(--color-secondary);
   }
 }
