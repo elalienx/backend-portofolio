@@ -1,14 +1,16 @@
 .item-technology .icon {
-  width: 32px;
-  height: 32px;
+  --size: 32px;
+
+  width: var(--size);
+  height: var(--size);
   margin-bottom: var(--space-small);
   padding: var(--space-small);
   background-color: var(--color-secondary);
-  border: solid 4px transparent;
+  border: solid var(--border-width) transparent;
   color: var(--color-primary);
 }
 
 /* Mouse over effect */
 .item-technology:hover .icon {
-  border: solid 4px var(--color-primary);
+  border: solid var(--border-width) var(--color-primary);
 }

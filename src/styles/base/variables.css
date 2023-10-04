@@ -10,8 +10,8 @@
   --space-medium: 16px;
   --space-big: 32px;
 
-  /* Border radious */
-  --border-radius: 4px;
+  /* Border */
+  --border-width: 4px;
 
   /* Media queries */
   /* Note: Normal CSS cannot do variables for media queries. You need to a framework called SASS for that. */
