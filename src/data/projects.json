@@ -3,8 +3,7 @@
     "id": 1,
     "title": "Spotify player",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
-    "image_screenshot_url": "images/0-spotifoo.jpg",
-    "image_thumb_url": "images/0-spotifoo.jpg",
+    "image_url": "images/0-spotifoo.jpg",
     "link_github": "https://github.com/Nermeen-M/eika-shopping-list",
     "link_website": ""
   },
@@ -12,8 +11,7 @@
     "id": 2,
     "title": "Recipes management",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
-    "image_screenshot_url": "images/1-recipe.jpg",
-    "image_thumb_url": "images/1-recipe.jpg",
+    "image_url": "images/1-recipe.jpg",
     "link_github": "https://github.com/Nermeen-M/eika-shopping-list",
     "link_website": ""
   },
@@ -21,8 +19,7 @@
     "id": 3,
     "title": "Bank ATM machine",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
-    "image_screenshot_url": "images/2-bank-atm.jpg",
-    "image_thumb_url": "images/2-bank-atm.jpg",
+    "image_url": "images/2-bank-atm.jpg",
     "link_github": "https://github.com/Nermeen-M/eika-shopping-list",
     "link_website": ""
   },
@@ -30,8 +27,7 @@
     "id": 4,
     "title": "Inventory system",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
-    "image_screenshot_url": "images/3-warehourse.jpg",
-    "image_thumb_url": "images/3-warehourse.jpg",
+    "image_url": "images/3-warehourse.jpg",
     "link_github": "https://github.com/Nermeen-M/eika-shopping-list",
     "link_website": ""
   },
@@ -39,8 +35,7 @@
     "id": 5,
     "title": "To do list backend",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
-    "image_screenshot_url": "images/4-todo.jpg",
-    "image_thumb_url": "images/4-todo.jpg",
+    "image_url": "images/4-todo.jpg",
     "link_github": "https://github.com/Nermeen-M/eika-shopping-list",
     "link_website": "https://eika-shopping-list-61c59.web.app"
   },
@@ -48,8 +43,7 @@
     "id": 6,
     "title": "Netflix full backend",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
-    "image_screenshot_url": "images/5-netflix.jpg",
-    "image_thumb_url": "images/5-netflix.jpg",
+    "image_url": "images/5-netflix.jpg",
     "link_github": "https://github.com/Nermeen-M/eika-shopping-list",
     "link_website": "https://eika-shopping-list-61c59.web.app"
   },
@@ -57,8 +51,7 @@
     "id": 7,
     "title": "Tradera full website",
     "description": "This project is a To-do list where users can add items to list and mark items as completed.",
-    "image_screenshot_url": "images/6-tradera.jpg",
-    "image_thumb_url": "images/6-tradera.jpg",
+    "image_url": "images/6-tradera.jpg",
     "link_github": "https://github.com/Nermeen-M/eika-shopping-list",
     "link_website": "https://eika-shopping-list-61c59.web.app"
   }
