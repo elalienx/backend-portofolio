@@ -15,16 +15,6 @@ export default function About() {
               Please take a look at my page and have a good time. I hope to hear
               from you soon.
             </p>
-            {/* Button test */}
-            <button className="primary">primary button</button>
-            <br />
-            <button>secondary button</button>
-            <br />
-            <a href="#" className="button">
-              themed a as button
-            </a>
-            <br />
-            <button className="reset-button">unthemed button</button>
           </div>
           <img src="images/about.png" alt="A blue computer with decoration" />
         </div>

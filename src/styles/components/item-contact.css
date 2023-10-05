@@ -6,8 +6,10 @@
 }
 
 .item-contact .icon {
-  width: 16px;
-  height: 16px;
+  --size: 16px;
+
+  width: var(--size);
+  height: var(--size);
   padding: var(--space-small);
   background-color: var(--color-primary);
   color: var(--color-secondary);
