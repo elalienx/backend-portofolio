@@ -11,14 +11,32 @@ button,
   font-size: 24px;
   text-decoration: none;
 }
-button .primary,
+
+button:hover,
+.button:hover {
+  text-decoration: underline;
+  cursor: default;
+}
+
+button.primary,
 .button.primary {
   background-color: var(--color-secondary);
   color: var(--color-text-light);
 }
 
+/* This is a reset so other webpage elements can show the default button style if needed */
+.reset-button {
+  all: revert;
+}
+
 /* Desktop */
-button,
-.button {
-  font-size: 28px;
+@media (min-width: 750px) {
+  button,
+  .button {
+    font-size: 28px;
+  }
+
+  .reset-button {
+    font-size: revert;
+  }
 }
