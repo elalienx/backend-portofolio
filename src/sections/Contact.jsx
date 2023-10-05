@@ -1,10 +1,10 @@
 // Project files
+import ItemContact from "../components/ItemContact";
 import Data from "../data/contact.json";
-import Item from "../components/ItemContact";
 
 export default function Contact() {
   // Components
-  const Items = Data.map((item) => <Item key={item.id} item={item} />);
+  const Items = Data.map((item) => <ItemContact key={item.id} item={item} />);
 
   return (
     <section id="contact">

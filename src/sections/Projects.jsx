@@ -1,6 +1,6 @@
 // Project files
-import Data from "../data/projects.json";
 import ItemProject from "../components/ItemProject";
+import Data from "../data/projects.json";
 
 export default function Projects({ setModal }) {
   // Components

@@ -1,11 +1,11 @@
 // Project files
-import Item from "../components/ItemTechnology";
+import ItemTechnology from "../components/ItemTechnology";
 import Data from "../data/technologies.json";
 
 export default function Technologies({ setModal }) {
   // Components
   const Items = Data.map((item) => (
-    <Item key={item.id} item={item} setModal={setModal} />
+    <ItemTechnology key={item.id} item={item} setModal={setModal} />
   ));
 
   return (
