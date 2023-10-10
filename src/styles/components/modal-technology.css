@@ -1,5 +1,15 @@
 .modal-technology {
+  width: 90%;
   padding: var(--space-small);
+  background-color: white;
+}
+
+/* Tablet */
+@media (min-width: 550px) {
+  .modal-technology {
+    width: 67%;
+    padding: var(--space-medium);
+  }
 }
 
 /* Desktop */

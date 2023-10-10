@@ -15,7 +15,9 @@ export default function Modal({ state }) {
       <div className="background" onClick={() => setModal(null)}>
         {/* This is the black background that is clickable to close the modal */}
       </div>
-      <div className="window">{modal}</div>
+
+      {/* The React component you pass as a prop will be rendered here on top of the background */}
+      {modal}
     </div>,
     HTMLElement
   );
